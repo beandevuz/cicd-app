@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.beandevuz</groupId>
 	<artifactId>cicd-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>cicd-app</name>
 	<description>Demo project for Spring Boot and CICD</description>
 	<properties>
@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>cicd-app</finalName>
 	</build>
 
 </project>
